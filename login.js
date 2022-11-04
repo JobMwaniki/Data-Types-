@@ -34,7 +34,7 @@ function emailChecker(XXXX) {
     if (XXXX.includes('@')) {
         console.log('Valid Email');
     }else {
-        alert('Hey, please check your email');
+        alert('Hey, please check your email credentials and try again.');
     }
 }
 function passwordLengthChecker(input) {
