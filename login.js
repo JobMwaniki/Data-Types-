@@ -4,7 +4,7 @@ function loginFunction() {
     // Get the elements
     const pageElements = getElements();
     // get the Value of the elements
-    const pageValues = pageValuesFromElement(pageElements);
+    const pageValues = getValuesFromElements(pageElements);
     // check whether the email contains @
     emailChecker(pageValues.emailValues);
     // check whether the password is more than 3 characters
@@ -15,11 +15,11 @@ function loginFunction() {
 
 function getElements() {
     const emailElement = document.getElementById('email');
-    const passwordElement =documents.getElementByID('password');
+    const passwordElement =document.getElementByID('password');
     return { emailElement, passwordElement };
 }
 
-function getvaluesfromElements(input) {
+function getValuesFromElements(input) {
     const emailElement = input.emailElement;
     const passwordElement = input.passwordElement;
     
@@ -34,11 +34,11 @@ function emailChecker(XXXX) {
     if (XXXX.includes('@')) {
         console.log('Valid Email');
     }else {
-        alert('hey, please check youe email');
+        alert('Hey, please check your email');
     }
 }
 function passwordLengthChecker(input) {
-    if (input.length<3) {
+    if (input.length < 3) {
         alert('hey, please enter a password with 3 characters or more');
     }
 }
