@@ -19,7 +19,7 @@ Job Mwaniki;
 Contact; 0724141381
 Email; jobmwanikinjuguna@gmail.com}
 
-### License Information
+### License Information 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this  documentation files (the "Software"), to deal
 in the website creation without restriction, including without limitation the rights
