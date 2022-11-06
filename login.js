@@ -6,9 +6,9 @@ function loginFunction() {
     // get the Value of the elements
     const pageValues = getValuesFromElements(pageElements);
     // check whether the email contains @
-    emailChecker(pageValues.emailValues);
+    emailChecker(pageValues.emailValue)
     // check whether the password is more than 3 characters
-    passwordLengthChecker(pageValues.passwordValues);
+    passwordLengthChecker(pageValues.passwordValue);
     //Log in successful
 
 };
