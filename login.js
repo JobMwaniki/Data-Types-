@@ -5,9 +5,9 @@ function loginFunction() {
   const pageElements = getElements();
   // get the Value of the elements
   const pageValues = getValuesFromElements(pageElements);
-  // check whether the email contains @
+  // check whether the date is less than 31
   emailChecker(pageValues.emailValue);
-  // check whether the password is more than 3 characters
+  // check whether gender is male or Female
   passwordLengthChecker(pageValues.passwordValue);
   //Log in successful
 }
@@ -40,5 +40,11 @@ function genderChecker(input) {
     alert("hey, please enter a password with 3 characters or more");
   }
 }
+const dayOfWeek = RESULTOFFORMULA
 const maleNames = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame']
+const myName = maleNames [dayOfWeek-1]
+
+
+const dayWeek = RESULTOFFORMULA
 const femaleNames = ['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama']
+const myName = femaleNames [dayWeek-1]
