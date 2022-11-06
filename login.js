@@ -36,21 +36,9 @@ function dateChecker(XXXX) {
   }
 }
 function genderChecker(input) {
-  if (input. < 3) {
+  if (input. gender < 3) {
     alert("hey, please enter a password with 3 characters or more");
   }
 }
 const maleNames = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame']
-const femaleNames = ['Akosua',
-
-Monday: Adwoa
-
-Tuesday: Abenaa
-
-Wednesday: Akua
-
-Thursday:  Yaa
-
-Friday: Afua
-
-Saturday: Ama']
+const femaleNames = ['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama']
