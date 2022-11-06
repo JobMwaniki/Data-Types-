@@ -13,22 +13,22 @@ function loginFunction() {
 }
 
 function getElements() {
-  const emailElement = document.getElementById("email");
-  const passwordElement = document.getElementByID("password");
-  return { emailElement, passwordElement };
+  const dateElement = document.getElementById("date");
+  const genderElement = document.getElementByID("gender");
+  return { dateElement, genderElement };
 }
 
 function getValuesFromElements(input) {
-  const emailElement = input.emailElement;
-  const passwordElement = input.passwordElement;
+  const dateElement = input.dateElement;
+  const genderElement = input.genderElement;
 
-  const emailValue = emailElement.value;
-  const passwordValue = passwordElement.Value;
+  const dateValue = dateElement.value;
+  const genderValue = genderElement.Value;
 
-  return { emailValue, passwordValue };
+  return { dateValue, genderValue };
 }
 
-function emailChecker(XXXX) {
+function dateChecker(XXXX) {
   if (XXXX.includes("@")) {
     console.log("Valid Email");
   } else {
