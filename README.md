@@ -7,7 +7,7 @@ Job Mwaniki,
 https://jobmwaniki.github.io/Data-Types-/ 
 ## Project Description
 A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
-Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
 ## Project Setup Instruction
 Clone the repo, navigate to the directory on file explorer and double click a .HTML file to open in a browser
 ## Known Bugs
