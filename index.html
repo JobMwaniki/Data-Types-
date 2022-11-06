@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Akan Web</title>
-</head>
-<body>
+  <head>
+    <title>Akan Web</title>
+  </head>
+  <body>
+    <h1>Introduction</h1>
+    <p>
+      A web application that takes a user's birthday and calculates the day of
+      the week they were born and then depending on their gender outputs their
+      Akan Name. Akan names are derived from Ghanian culture. Frequently in
+      Ghana, children are given their first name as a 'day name' which
+      corresponds to the day in the week they were born.
+    </p>
 
-<h1>Introduction</h1>
-<p>A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+    <p>now initializing</p>
+    <form>
+      <label>Date</label>
+      <input type="date" name="Date" id="date" />
 
-<p>now initializing</p>
-<form>
-    <label>Date</label>
-    <input type="date" name="Date" id="date">
+      <label>Gender</label>
+      <input type="gender" name="gender" id="gender" />
 
-    <label>Gender</label>
-    <input type="gender" name="gender" id="gender">
+      <label>Name</label>
+      <input type="name" name="name" id="name" />
+    </form>
+    <button type="Submit" onclick="loginFunction()">SELECT</button>
 
-    <label>Name</label>
-    <input type="name" name="name" id="name">
-</form>
-<button type="Submit" onclick="loginFunction()" >SELECT</button>
-
-<!-- <script src="login.js"></script> -->
-</body>
+    <!-- <script src="login.js"></script> -->
+  </body>
 </html>
