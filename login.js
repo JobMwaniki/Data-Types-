@@ -35,8 +35,22 @@ function dateChecker(XXXX) {
     alert("Hey, please check your email credentials and try again.");
   }
 }
-function passwordLengthChecker(input) {
-  if (input.length < 3) {
+function genderChecker(input) {
+  if (input. < 3) {
     alert("hey, please enter a password with 3 characters or more");
   }
 }
+const maleNames = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame']
+const femaleNames = ['Akosua',
+
+Monday: Adwoa
+
+Tuesday: Abenaa
+
+Wednesday: Akua
+
+Thursday:  Yaa
+
+Friday: Afua
+
+Saturday: Ama']
