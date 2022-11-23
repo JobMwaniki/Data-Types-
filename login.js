@@ -11,6 +11,16 @@ var dayNames = [
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", " Yaa", "Afua", "Ama"];
 
+function getElements() {
+  const dateElement = document.getElementById("date");
+   return { dateElement };
+}
+function getValuesFromElements(input) {
+  const dateElement = input.dateElement;
+
+  const dateValue = dateElement.value;
+  return { dateValue };
+}
 function validate() {
   var genders = document.getElementsByName("gender");
   if (
