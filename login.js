@@ -21,7 +21,7 @@ function validate() {
   ) {
     document.getElementById("year-label").style.color = "#dc2f55";
     document.getElementById("year-label").innerText =
-      "Please provide a valid year of birth! eg 2022";
+      "Please provide a valid year of birth! eg 1989";
     return false;
   } else if (
     document.myForm.month.value == "" ||
@@ -44,7 +44,7 @@ function validate() {
   ) {
     document.getElementById("date-label").style.color = "#dc2f55";
     document.getElementById("date-label").innerText =
-      "Please provide a valid date that you were born in!";
+      "Please provide a valid date that you were born in between 1st - 31st!";
   } else if (genders[0].checked == false && genders[1].checked == false) {
     document.getElementById("gender-label").style.color = "#dc2f55";
     document.getElementById("gender-label").innerText =
